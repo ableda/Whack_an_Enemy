@@ -29,7 +29,7 @@ class WhackSlot: SKNode {
         cropNode.maskNode = SKSpriteNode(imageNamed: "whackMask")
         
         // Here is where will need to change the images to whack and to not whack
-        charNode = SKSpriteNode(imageNamed: "Messi")
+        charNode = SKSpriteNode(imageNamed: "messi2")
         charNode.position = CGPoint(x: 0, y: -90)
         charNode.name = "character"
         cropNode.addChild(charNode)
@@ -48,10 +48,10 @@ class WhackSlot: SKNode {
         isHit = false
         
         if RandomInt(min:0, max: 2) == 0 {
-            charNode.texture = SKTexture(imageNamed: "Messi")   // change image here too
+            charNode.texture = SKTexture(imageNamed: "messi2")   // change image here too
             charNode.name = "charFriend"
         } else {
-            charNode.texture = SKTexture(imageNamed: "ronaldo")  // evil picture
+            charNode.texture = SKTexture(imageNamed: "cristiano2")  // evil picture
             charNode.name = "charEnemy"
         }
         
@@ -62,13 +62,17 @@ class WhackSlot: SKNode {
     
     func hide() {
         if !visible { return }
-        
+
         charNode.runAction(SKAction.moveByX(0, y: -80, duration: 0.05))
         visible = false
     }
     
     func hit() {
         isHit = true
+        
+        let explosion = SKEmitterNode(fileNamed: "explosion")
+        explosion!.position = charNode.position
+        addChild(explosion!)
         
         let delay = SKAction.waitForDuration(0.25)
         let hide = SKAction.moveByX(0, y: -80, duration: 0.5)

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1570B4CC6C3BFBE42CC838846C536FDDB957C816",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1570B4CC6C3BFBE42CC838846C536FDDB957C816" : 0,
+    "42DD0C81836CEDCEBE33B7D61842F1C017E33B86" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1FF7BDC1-3E6B-4F4B-B0CC-47095DA6CD32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1570B4CC6C3BFBE42CC838846C536FDDB957C816" : "Whack%20an%20enemy\/",
+    "42DD0C81836CEDCEBE33B7D61842F1C017E33B86" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Whack an enemy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Whack an enemy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ableda\/Whack_an_Enemy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1570B4CC6C3BFBE42CC838846C536FDDB957C816"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ableda\/WordScramble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42DD0C81836CEDCEBE33B7D61842F1C017E33B86"
+    }
+  ]
+}

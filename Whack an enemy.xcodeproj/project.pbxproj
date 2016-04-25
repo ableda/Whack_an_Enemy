@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5A50AF71CCD70AB0017F29D /* playScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A50AF61CCD70AB0017F29D /* playScene.swift */; };
+		E5A50AF91CCD71B90017F29D /* main_menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A50AF81CCD71B90017F29D /* main_menu2.png */; };
+		E5A50AFB1CCD72420017F29D /* forest_main.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A50AFA1CCD72420017F29D /* forest_main.png */; };
+		E5A50AFD1CCD73880017F29D /* chaosScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A50AFC1CCD73880017F29D /* chaosScene.swift */; };
+		E5A50AFF1CCD740E0017F29D /* grass2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A50AFE1CCD740E0017F29D /* grass2.png */; };
+		E5A50B051CCD7A100017F29D /* whiteHouse.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A50B041CCD7A100017F29D /* whiteHouse.png */; };
+		E5A50B071CCD7AA20017F29D /* houseW.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A50B061CCD7AA20017F29D /* houseW.png */; };
+		E5A50B091CCD7C7F0017F29D /* pictureScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A50B081CCD7C7F0017F29D /* pictureScene.swift */; };
 		E5C20A241CCBED5D005A8A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C20A231CCBED5D005A8A27 /* AppDelegate.swift */; };
 		E5C20A261CCBED5D005A8A27 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A251CCBED5D005A8A27 /* GameScene.sks */; };
 		E5C20A281CCBED5D005A8A27 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C20A271CCBED5D005A8A27 /* GameScene.swift */; };
@@ -33,11 +41,20 @@
 		E5C20A6D1CCC0528005A8A27 /* whackBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A6C1CCC0528005A8A27 /* whackBackground4.png */; };
 		E5C20A6F1CCC0740005A8A27 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C20A6E1CCC0740005A8A27 /* Helper.swift */; };
 		E5C20A731CCC1F3F005A8A27 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A721CCC1F3F005A8A27 /* playButton.png */; };
-		E5C20A771CCC2E02005A8A27 /* Messi.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A761CCC2E02005A8A27 /* Messi.png */; };
-		E5C20A791CCC2E0A005A8A27 /* ronaldo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A781CCC2E0A005A8A27 /* ronaldo.png */; };
+		E5C20A831CCC3284005A8A27 /* messi2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A821CCC3284005A8A27 /* messi2.png */; };
+		E5C20A871CCC33E2005A8A27 /* cristiano2.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A861CCC33E2005A8A27 /* cristiano2.png */; };
+		E5C20A891CCC3735005A8A27 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E5C20A881CCC3735005A8A27 /* explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5A50AF61CCD70AB0017F29D /* playScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playScene.swift; sourceTree = "<group>"; };
+		E5A50AF81CCD71B90017F29D /* main_menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_menu2.png; sourceTree = "<group>"; };
+		E5A50AFA1CCD72420017F29D /* forest_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_main.png; sourceTree = "<group>"; };
+		E5A50AFC1CCD73880017F29D /* chaosScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chaosScene.swift; sourceTree = "<group>"; };
+		E5A50AFE1CCD740E0017F29D /* grass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass2.png; sourceTree = "<group>"; };
+		E5A50B041CCD7A100017F29D /* whiteHouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteHouse.png; sourceTree = "<group>"; };
+		E5A50B061CCD7AA20017F29D /* houseW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseW.png; sourceTree = "<group>"; };
+		E5A50B081CCD7C7F0017F29D /* pictureScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pictureScene.swift; sourceTree = "<group>"; };
 		E5C20A201CCBED5D005A8A27 /* Whack an enemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack an enemy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C20A231CCBED5D005A8A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5C20A251CCBED5D005A8A27 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,8 +83,9 @@
 		E5C20A6C1CCC0528005A8A27 /* whackBackground4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whackBackground4.png; sourceTree = "<group>"; };
 		E5C20A6E1CCC0740005A8A27 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E5C20A721CCC1F3F005A8A27 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton.png; path = ../playButton.png; sourceTree = "<group>"; };
-		E5C20A761CCC2E02005A8A27 /* Messi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Messi.png; sourceTree = "<group>"; };
-		E5C20A781CCC2E0A005A8A27 /* ronaldo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ronaldo.png; sourceTree = "<group>"; };
+		E5C20A821CCC3284005A8A27 /* messi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messi2.png; sourceTree = "<group>"; };
+		E5C20A861CCC33E2005A8A27 /* cristiano2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cristiano2.png; sourceTree = "<group>"; };
+		E5C20A881CCC3735005A8A27 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +122,16 @@
 				E5C20A231CCBED5D005A8A27 /* AppDelegate.swift */,
 				E5C20A251CCBED5D005A8A27 /* GameScene.sks */,
 				E5C20A271CCBED5D005A8A27 /* GameScene.swift */,
+				E5A50AF61CCD70AB0017F29D /* playScene.swift */,
+				E5A50AFC1CCD73880017F29D /* chaosScene.swift */,
+				E5A50B081CCD7C7F0017F29D /* pictureScene.swift */,
 				E5C20A291CCBED5D005A8A27 /* GameViewController.swift */,
 				E5C20A6E1CCC0740005A8A27 /* Helper.swift */,
 				E5C20A391CCBF1D4005A8A27 /* Content */,
 				E5C20A2B1CCBED5D005A8A27 /* Main.storyboard */,
 				E5C20A2E1CCBED5D005A8A27 /* Assets.xcassets */,
 				E5C20A301CCBED5D005A8A27 /* LaunchScreen.storyboard */,
+				E5C20A881CCC3735005A8A27 /* explosion.sks */,
 				E5C20A331CCBED5D005A8A27 /* Info.plist */,
 			);
 			path = "Whack an enemy";
@@ -118,8 +140,13 @@
 		E5C20A391CCBF1D4005A8A27 /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				E5C20A761CCC2E02005A8A27 /* Messi.png */,
-				E5C20A781CCC2E0A005A8A27 /* ronaldo.png */,
+				E5A50B061CCD7AA20017F29D /* houseW.png */,
+				E5A50B041CCD7A100017F29D /* whiteHouse.png */,
+				E5A50AFA1CCD72420017F29D /* forest_main.png */,
+				E5A50AFE1CCD740E0017F29D /* grass2.png */,
+				E5A50AF81CCD71B90017F29D /* main_menu2.png */,
+				E5C20A861CCC33E2005A8A27 /* cristiano2.png */,
+				E5C20A821CCC3284005A8A27 /* messi2.png */,
 				E5C20A3A1CCBF1D4005A8A27 /* gameOver.png */,
 				E5C20A721CCC1F3F005A8A27 /* playButton.png */,
 				E5C20A561CCBF573005A8A27 /* moleScene.png */,
@@ -203,24 +230,30 @@
 				E5C20A481CCBF1D4005A8A27 /* gameOver.png in Resources */,
 				E5C20A261CCBED5D005A8A27 /* GameScene.sks in Resources */,
 				E5C20A491CCBF1D4005A8A27 /* gameOver@2x.png in Resources */,
+				E5A50AFB1CCD72420017F29D /* forest_main.png in Resources */,
+				E5A50B051CCD7A100017F29D /* whiteHouse.png in Resources */,
 				E5C20A541CCBF1D4005A8A27 /* whackMask.png in Resources */,
 				E5C20A531CCBF1D4005A8A27 /* whackHole@2x.png in Resources */,
 				E5C20A321CCBED5D005A8A27 /* LaunchScreen.storyboard in Resources */,
 				E5C20A521CCBF1D4005A8A27 /* whackHole.png in Resources */,
+				E5A50AFF1CCD740E0017F29D /* grass2.png in Resources */,
 				E5C20A501CCBF1D4005A8A27 /* whackBackground@2x.png in Resources */,
 				E5C20A4F1CCBF1D4005A8A27 /* whackBackground.png in Resources */,
+				E5A50B071CCD7AA20017F29D /* houseW.png in Resources */,
 				E5C20A6D1CCC0528005A8A27 /* whackBackground4.png in Resources */,
 				E5C20A2F1CCBED5D005A8A27 /* Assets.xcassets in Resources */,
+				E5C20A871CCC33E2005A8A27 /* cristiano2.png in Resources */,
+				E5A50AF91CCD71B90017F29D /* main_menu2.png in Resources */,
 				E5C20A571CCBF573005A8A27 /* moleScene.png in Resources */,
 				E5C20A4B1CCBF1D4005A8A27 /* penguinEvil@2x.png in Resources */,
-				E5C20A791CCC2E0A005A8A27 /* ronaldo.png in Resources */,
 				E5C20A4A1CCBF1D4005A8A27 /* penguinEvil.png in Resources */,
 				E5C20A2D1CCBED5D005A8A27 /* Main.storyboard in Resources */,
+				E5C20A831CCC3284005A8A27 /* messi2.png in Resources */,
 				E5C20A551CCBF1D4005A8A27 /* whackMask@2x.png in Resources */,
 				E5C20A4E1CCBF1D4005A8A27 /* whack.caf in Resources */,
 				E5C20A4D1CCBF1D4005A8A27 /* penguinGood@2x.png in Resources */,
 				E5C20A4C1CCBF1D4005A8A27 /* penguinGood.png in Resources */,
-				E5C20A771CCC2E02005A8A27 /* Messi.png in Resources */,
+				E5C20A891CCC3735005A8A27 /* explosion.sks in Resources */,
 				E5C20A731CCC1F3F005A8A27 /* playButton.png in Resources */,
 				E5C20A511CCBF1D4005A8A27 /* whackBad.caf in Resources */,
 			);
@@ -235,9 +268,12 @@
 			files = (
 				E5C20A281CCBED5D005A8A27 /* GameScene.swift in Sources */,
 				E5C20A2A1CCBED5D005A8A27 /* GameViewController.swift in Sources */,
+				E5A50AF71CCD70AB0017F29D /* playScene.swift in Sources */,
 				E5C20A6F1CCC0740005A8A27 /* Helper.swift in Sources */,
 				E5C20A591CCBF63C005A8A27 /* WhackSlot.swift in Sources */,
+				E5A50AFD1CCD73880017F29D /* chaosScene.swift in Sources */,
 				E5C20A241CCBED5D005A8A27 /* AppDelegate.swift in Sources */,
+				E5A50B091CCD7C7F0017F29D /* pictureScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +429,7 @@
 				E5C20A381CCBED5D005A8A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
